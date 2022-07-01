@@ -1,0 +1,44 @@
+.introduction-header img {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.introduction {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.introduction-intro {
+  background-color: rgba(39, 39, 39, 0.205);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.introduction-explanation-one {
+  background-color: rgba(216, 216, 216, 0.26);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.introduction-explanation-two {
+  background-color: rgba(39, 39, 39, 0.205);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.introduction-summary {
+  background-color: rgb(201, 230, 253);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.citation {
+  font-family: "Times New Roman", Times, serif;
+  font-size: small;
+  text-align: center;
+}
+
+.brank {
+  margin: 10%;
+}

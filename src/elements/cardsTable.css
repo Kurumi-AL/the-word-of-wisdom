@@ -1,0 +1,9 @@
+.card {
+  margin: 5%;
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.card :hover {
+  cursor: pointer;
+}
