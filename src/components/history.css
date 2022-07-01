@@ -5,3 +5,24 @@
 .history {
   font-family: "Times New Roman", Times, serif;
 }
+
+.history h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.history-summary {
+  background-color: rgb(201, 230, 253);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.citation {
+  font-family: "Times New Roman", Times, serif;
+  font-size: small;
+  text-align: center;
+}

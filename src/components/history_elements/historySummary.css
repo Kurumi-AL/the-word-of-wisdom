@@ -12,6 +12,7 @@
   padding-right: 5%;
 }
 
-.summary h3 {
+.summary h2 {
   margin-bottom: 1%;
+  font-weight: bold;
 }

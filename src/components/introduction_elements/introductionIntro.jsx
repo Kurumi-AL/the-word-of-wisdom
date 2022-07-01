@@ -6,10 +6,7 @@ import "./introductionIntro.css";
 const IntroductionIntro = () => {
   return (
     <div className="intro">
-      <h3>
-        <FontAwesomeIcon icon={faCircle} />
-        What Is The Word Of Wisdom?
-      </h3>
+      <h3>What Is The Word Of Wisdom?</h3>
       <div className="intro-contents">
         <h5>
           The Word of Wisdom is "a law of health revealed by the Lord for our

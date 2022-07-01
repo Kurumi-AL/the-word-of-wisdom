@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import Quote from "../elements/quote";
-import IntroductionIntro from "./introduction_elements.jsx/introductionIntro";
-import IntroductionExplanationOne from "./introduction_elements.jsx/introductionExplanationOne";
-import IntroductionSummary from "./introduction_elements.jsx/introductionSummary";
-import IntroductionExplanationTwo from "./introduction_elements.jsx/introductionExplanationTwo";
-import IntroductionCitation from "./introduction_elements.jsx/introductionCitation";
+import IntroductionIntro from "./introduction_elements/introductionIntro";
+import IntroductionExplanationOne from "./introduction_elements/introductionExplanationOne";
+import IntroductionSummary from "./introduction_elements/introductionSummary";
+import IntroductionExplanationTwo from "./introduction_elements/introductionExplanationTwo";
+import IntroductionCitation from "./introduction_elements/introductionCitation";
 import Aos from "aos";
 import "./introduction.css";
+import BackToTopButton from "../elements/backToTopButton";
 
 const Introduction = () => {
   useEffect(() => {
@@ -51,6 +52,8 @@ const Introduction = () => {
       <div className="citation">
         <IntroductionCitation />
       </div>
+
+      <BackToTopButton />
     </React.Fragment>
   );
 };

@@ -6,7 +6,6 @@ const IntroductionExplanationTwo = () => {
   return (
     <div className="explanation-two">
       <h3>
-        <FontAwesomeIcon icon={faCircle} />
         The Lord Declares That The Following Foods Are Good For Our Bodies
       </h3>
 

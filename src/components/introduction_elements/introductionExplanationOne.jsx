@@ -5,10 +5,7 @@ import "./introductionExplanationOne.css";
 const IntroductionExplanationOne = () => {
   return (
     <div className="explanation-one">
-      <h3>
-        <FontAwesomeIcon icon={faCircle} />
-        Three Main Things That Are Restricted In The Word Of Wisdom
-      </h3>
+      <h3>Three Main Things That Are Restricted In The Word Of Wisdom</h3>
 
       <div className="first-contents">
         <div className="first-wow">

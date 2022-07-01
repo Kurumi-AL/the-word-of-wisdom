@@ -1,6 +1,9 @@
 import React from "react";
 import Quote from "../elements/quote";
 import Timeline from "../elements/verticalTimeline";
+import HistoryCitation from "./history_elements/historyCitation";
+import HistorySummary from "./history_elements/historySummary";
+import BackToTopButton from "../elements/backToTopButton";
 import "./history.css";
 
 const History = () => {
@@ -20,8 +23,19 @@ const History = () => {
       </div>
 
       <div className="container history">
+        <h2>Timeline</h2>
         <Timeline />
       </div>
+
+      <div className="history-summary">
+        <HistorySummary />
+      </div>
+
+      <div className="citation">
+        <HistoryCitation />
+      </div>
+
+      <BackToTopButton />
     </React.Fragment>
   );
 };
