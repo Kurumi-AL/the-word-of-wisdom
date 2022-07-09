@@ -6,8 +6,8 @@ import IntroductionSummary from "./introduction_elements/introductionSummary";
 import IntroductionExplanationTwo from "./introduction_elements/introductionExplanationTwo";
 import IntroductionCitation from "./introduction_elements/introductionCitation";
 import Aos from "aos";
-import "./introduction.css";
 import BackToTopButton from "../elements/backToTopButton";
+import "./introduction.css";
 
 const Introduction = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const Introduction = () => {
   return (
     <React.Fragment>
       <div className="introduction-header">
-        <img src="../images/img04.png" alt="The Word of Wisdom Introduction" />
+        <img src="/images/img04.png" alt="The Word of Wisdom Introduction" />
       </div>
 
       <div className="container" data-aos="fade-up">

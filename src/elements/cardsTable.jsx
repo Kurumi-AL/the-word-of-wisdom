@@ -15,25 +15,28 @@ const CardsTable = () => {
         <div className="card" onClick={() => routeChange("introduction")}>
           <img
             className="card-img-top"
-            src="../images/img05.jpg"
+            src="/images/img05.jpg"
             alt="Card image cap"
           />
           <div className="card-body">
             <h5 className="card-title">Introduction</h5>
             <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Here is the basic information about the Word of Wisdom.
             </p>
           </div>
         </div>
+
         <div className="card" onClick={() => routeChange("history")}>
-          <img className="card-img-top" src="..." alt="Card image cap" />
+          <img
+            className="card-img-top"
+            src="/images/img07.jpg"
+            alt="Card image cap"
+          />
           <div className="card-body">
             <h5 className="card-title">History</h5>
             <p className="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
+              Here is the information on how the Word of Wisdom had been
+              developed.
             </p>
           </div>
         </div>

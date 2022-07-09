@@ -18,36 +18,36 @@ const BootstrapCarousel = () => {
             <img
               style={{ height: "450px" }}
               className="d-block w-100"
-              src={"assets/img/img2.jpg"}
+              src="/images/img02.jpg"
             />
 
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>First Demo </h3>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
 
           <Carousel.Item style={{ height: "450px" }}>
             <img
               style={{ height: "450px" }}
               className="d-block w-100"
-              src={"../images/img01.jpg"}
+              src={"/images/img01.jpg"}
             />
 
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>Second Demo</h3>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
 
           <Carousel.Item style={{ height: "450px" }}>
             <img
               style={{ height: "450px" }}
               className="d-block w-100"
-              src={"assets/img/img3.jpg"}
+              src={"/images/img03.jpg"}
             />
 
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>Third Demo</h3>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
         </Carousel>
       </div>
