@@ -19,7 +19,6 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">Creative Director</h3> */}
         <h4 className="vertical-timeline-element-subtitle">
           Joseph Smith received the Word of Wisdom by revelation
         </h4>
@@ -40,7 +39,6 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">Art Director</h3> */}
         <h4 className="vertical-timeline-element-subtitle">
           Brigham realized that imports of tea, coffee, and tobacco were to
           increase as costs of transportation decreased.
@@ -61,7 +59,6 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">Web Designer</h3> */}
         <h4 className="vertical-timeline-element-subtitle">
           Brigham Young raised repeatedly the issue of the local manufacture and
           control of alcohol
@@ -82,7 +79,6 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">Web Designer</h3> */}
         <h4 className="vertical-timeline-element-subtitle">
           Brigham Young suggested that the Saints might properly donate money
           recently saved by obeying the Word of Wisdom to the Church’s
@@ -104,14 +100,10 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">
-          Content Marketing for Web, Mobile and Social Media
-        </h3> */}
         <h5 className="vertical-timeline-element-subtitle">
           Brigham Young announced that tobacco, coffee, and tea are not
           initially prohibited, but instead their use was discouraged
         </h5>
-        {/* <p>Strategy, Social Media</p> */}
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -124,9 +116,6 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">
-          Agile Development Scrum Master
-        </h3> */}
         <h4 className="vertical-timeline-element-subtitle">
           Brigham Young included the statement to preside over the European
           Mission
@@ -147,14 +136,10 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">
-          Bachelor of Science in Interactive Digital Media Visual Imaging
-        </h3> */}
         <h5 className="vertical-timeline-element-subtitle">
           The First Presidency noted that bishops should not withhold temple
           recommends based upon the Word of Wisdom
         </h5>
-        {/* <p>Creative Direction, Visual Design</p> */}
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -167,14 +152,10 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">
-          Bachelor of Science in Interactive Digital Media Visual Imaging
-        </h3> */}
         <h5 className="vertical-timeline-element-subtitle">
           Temple recommends were beginning to be denied to those who did not
           follow the Word of Wisdom
         </h5>
-        {/* <p>Creative Direction, Visual Design</p> */}
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -187,13 +168,9 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">
-          Bachelor of Science in Interactive Digital Media Visual Imaging
-        </h3> */}
         <h5 className="vertical-timeline-element-subtitle">
           Saints replaced wine with water for sacrament use
         </h5>
-        {/* <p>Creative Direction, Visual Design</p> */}
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -206,15 +183,11 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">
-          Bachelor of Science in Interactive Digital Media Visual Imaging
-        </h3> */}
         <h5 className="vertical-timeline-element-subtitle">
           Herber Grant called on all Saints to live the Word of Wisdom to the
           letter by completely abstaining from all alcohol, coffee, tea, and
           tobacco.
         </h5>
-        {/* <p>Creative Direction, Visual Design</p> */}
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -227,15 +200,11 @@ const Timeline = () => {
         iconStyle={{ background: "gray", color: "#fff" }}
         icon={<FontAwesomeIcon icon={faPlaceOfWorship} />}
       >
-        {/* <h3 className="vertical-timeline-element-title">
-          Bachelor of Science in Interactive Digital Media Visual Imaging
-        </h3> */}
         <h5 className="vertical-timeline-element-subtitle">
           The General Handbook of Instructions listed the Word of Wisdom as a
           requirement for temple worship, exactly 100 years after the receipt of
           the revelation by Joseph Smith.
         </h5>
-        {/* <p>Creative Direction, Visual Design</p> */}
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

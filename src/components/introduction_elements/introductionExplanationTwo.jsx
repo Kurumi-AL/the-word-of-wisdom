@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import "./introductionExplanationTwo.css";
 
 const IntroductionExplanationTwo = () => {
@@ -16,7 +14,6 @@ const IntroductionExplanationTwo = () => {
             thanksgiving"
           </h4>{" "}
           <p>(D&C 89:10-11)</p>
-          {/* <p className="first-bad-scripture">explanation</p> */}
         </div>
 
         <div className="second-bad">
@@ -25,7 +22,6 @@ const IntroductionExplanationTwo = () => {
             be used sparingly"
           </h4>{" "}
           <p>(D&C 89:12-13)</p>
-          {/* <p className="second-bad-scripture">explanation</p> */}
         </div>
         <div className="third-bad">
           <h4>
@@ -33,7 +29,6 @@ const IntroductionExplanationTwo = () => {
             life"
           </h4>{" "}
           <p>(D&C 89:14-17)</p>
-          {/* <p className="third-bad-scripture">explanation</p> */}
         </div>
 
         <h5>
